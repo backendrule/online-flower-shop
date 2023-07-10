@@ -164,3 +164,39 @@
     line-height: 35px;
     padding-top: 5px;
 }
+
+/* Offer container start here */
+
+.offer-container {
+    height: 350px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 10px;
+
+}
+
+.offer-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    padding-bottom: 10px;
+}
+
+.off-img {
+    width: 318px;
+    height: 300px;
+}
