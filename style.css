@@ -110,7 +110,7 @@
     background: rgba(5, 151, 160, 0.15);
 }
 
-.feature-card-3{
+.feature-card-3 {
     width: 350px;
     height: 400px;
     border-radius: 300px 300px 0px 0px;
@@ -136,4 +136,31 @@
     justify-content: space-around;
     padding: 30px 0px 0px 0px;
     text-decoration: underline;
+}
+
+/* support style start here */
+
+.support-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 80%;
+    height: 250px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+
+}
+
+.supports-ways {
+    text-align: center;
+}
+
+.support-desc {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 5px;
 }
