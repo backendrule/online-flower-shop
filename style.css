@@ -35,7 +35,6 @@
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
-
 }
 
 
@@ -190,6 +189,7 @@
     align-items: center;
     text-align: center;
     position: relative;
+    margin: 100px 0px;
 }
 
 .offer-title {
@@ -327,4 +327,109 @@ input[type=text] {
     font-size: 16px;
     font-weight: 400;
 
+}
+
+/* New arrival section style start here */
+
+.new-arrival-container{
+    width: 80%;
+    margin: 0px auto;
+    background: rgba(39, 39, 39, 0.05);
+    height: 720px;
+
+}
+
+.new-arrival-box{
+    height: 300px;
+    width: 300px;
+    background-image: url("./asset/flower1.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(97, 96, 96);
+}
+
+.new-arrival-box2{
+    height: 300px;
+    width: 300px;
+    background-image: url("./asset/flower2.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(97, 96, 96);
+}
+
+.new-arrival-box3{
+    height: 300px;
+    width: 300px;
+    background-image: url("./asset/flower3.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(97, 96, 96);
+}
+
+.new-arrival-box4{
+    height: 300px;
+    width: 300px;
+    background-image: url("./asset/flower4.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(97, 96, 96);
+}
+
+.new-arrival-box5{
+    height: 300px;
+    width: 300px;
+    background-image: url("./asset/flower5.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(97, 96, 96);
+}
+
+.new-arrival-box6{
+    height: 300px;
+    width: 300px;
+    background-image: url("./asset/flower6.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(97, 96, 96);
+}
+
+.badge{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #E55473;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #FFF;
+    font-weight: 800;
+}
+
+
+.new-arrival-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new-arrival-txt{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px 0px;
+    text-align: center;
 }
